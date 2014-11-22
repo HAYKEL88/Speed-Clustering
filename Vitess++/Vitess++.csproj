@@ -203,6 +203,7 @@
     <Content Include="Assets\Screens\16.png" />
     <Content Include="Assets\Screens\17.png" />
     <Content Include="Assets\Screens\18.png" />
+    <Content Include="Assets\Screens\19.png" />
     <Content Include="Assets\Screens\LogoAPP.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
