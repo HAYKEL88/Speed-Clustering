@@ -33,7 +33,9 @@ namespace Vitess__.Pages
             bike2.Opacity = 0;
             car2.Opacity = 0;
             StartGPS.IsEnabled = false;
-
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.ApplicationId = "ApplicationID";
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "AuthenticationToken";
+        
 
           //  myLocationOverlay = new MapOverlay();
           //  myLocationLayer = new MapLayer();

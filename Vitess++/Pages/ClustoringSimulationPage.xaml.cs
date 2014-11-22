@@ -37,7 +37,9 @@ namespace Vitess__.Pages
         public ClustoringSimulationPage()
         {
             InitializeComponent();
-
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.ApplicationId = "ApplicationID";
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "AuthenticationToken";
+        
             RemplirList();
 
 
