@@ -195,6 +195,15 @@
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\LogoAPP.png" />
     <Content Include="Assets\mapmarker.png" />
+    <Content Include="Assets\Screens\11.png" />
+    <Content Include="Assets\Screens\12.png" />
+    <Content Include="Assets\Screens\13.png" />
+    <Content Include="Assets\Screens\14.png" />
+    <Content Include="Assets\Screens\15.png" />
+    <Content Include="Assets\Screens\16.png" />
+    <Content Include="Assets\Screens\17.png" />
+    <Content Include="Assets\Screens\18.png" />
+    <Content Include="Assets\Screens\LogoAPP.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
