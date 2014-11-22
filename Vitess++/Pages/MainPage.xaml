@@ -1,0 +1,32 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Vitesse__.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+
+
+    <StackPanel x:Name="LayoutRoot" Background="Transparent">
+        <Image Margin="2,0,8,0" Source="/Assets/Logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Height="119"/>
+        <Button x:Name="Transportation" Content="TRANSPORTATION MODE" Click="Transportation_Click"  />
+        <Button x:Name="Location" Content="LOCATION MAPS" Click="Location_Click"  />
+        <Button x:Name="Historic" Content="HISTORIC" Click="Historic_Click"  />
+        <Button x:Name="Clustoring" Content="Clustering" Click="Clustoring_Click"   />
+        <Button x:Name="ClustoringSimulation" Content="Clustering Simulation" Click="ClustoringSimulation_Click"  />
+        <Button x:Name="Help" Content="HELP" Click="Help_Click" />
+        <Button x:Name="About" Content="ABOUT" Click="About_Click" />
+        <Image Source="/Assets/images/compteur.jpg" Stretch="Fill" Height="129" Margin="83,0,79,0" />
+    </StackPanel>
+
+</phone:PhoneApplicationPage>

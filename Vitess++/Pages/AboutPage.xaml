@@ -1,0 +1,50 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Vitess__.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="0,19,0,-19">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+
+        <!--TitlePanel contains the name of the Page title Add New Path-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Assets/Logo.png" Height="50"/>
+                <TextBlock Text="About" VerticalAlignment="Center"
+					Margin="10 0 0 0"
+					FontSize="{StaticResource PhoneFontSizeLarge}" Width="311"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Margin="14,205,10,0" Height="554" VerticalAlignment="Top" Grid.RowSpan="2">
+            <TextBox HorizontalAlignment="Left" Height="101" Margin="204,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" FontSize="14" Text="Ouhichi Haykel&#xA;Haykel.Ouhichi@esprit.tn" IsReadOnly="True"/>
+            <TextBox HorizontalAlignment="Left" Height="101" Margin="204,372,0,0" TextWrapping="Wrap" Text="Gharsalli Dalel&#xA;Dalel.Gharsalli@esprit.tn" VerticalAlignment="Top" Width="212" FontSize="14" IsReadOnly="True" />
+            <TextBox HorizontalAlignment="Left" Height="62" Margin="204,320,0,0" TextWrapping="Wrap" Text="Developper" VerticalAlignment="Top" Width="138" FontSize="18" IsReadOnly="True"/>
+            <TextBox HorizontalAlignment="Left" Height="62" Margin="204,153,0,0" TextWrapping="Wrap" Text="Developper" VerticalAlignment="Top" Width="138" FontSize="19" IsReadOnly="True"/>
+            <Image Margin="52,164,267,250" Source="/Assets/images/Haykel.jpg" Stretch="Fill"/>
+            <TextBox HorizontalAlignment="Left" Height="249" TextWrapping="Wrap" Text="Born from the idea of creating an application which makes a classification of persons per profile whether on foot, by bicycle or by car.&#xA;Then generate statistics for their  activities.&#xD;&#xA;&#xA;Have an idea or want to collaborate ?&#xA;Feel free to contact us individually or say:&#xA;www.tigli.fr/doku.php?id=projets:plim:20142015:gr17&#xA;" VerticalAlignment="Top" Width="456" FontSize="18" Margin="0,-101,0,0" IsReadOnly="True"/>
+            <Image Margin="52,320,267,94" Source="/Assets/images/Dalel.jpg" Stretch="Fill"/>
+            <Image Margin="25,488,267,11" Source="/Assets/images/UniversiteNice.jpg" Stretch="Fill"/>
+        </Grid>
+        <Image Margin="287,598,30,21" Source="/Assets/images/Polytech.jpg" Stretch="Fill" Grid.Row="1"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
