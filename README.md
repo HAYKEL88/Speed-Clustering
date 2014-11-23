@@ -8,12 +8,21 @@ Let it works
 ================
 
 1 - Install Visual Studio 2013 professional.
+
 2 - Install Windows Phone 8.0 or 8.1 SDK.
+
 3 - Download project zip file.
+
 4- Extract project zip file
+
 5- Open Visual Studio 2013 professional.
+
 6- Go to File -> open -> project/solution.
+
 7- Choose project destination.
+
 8- Click *.sln solution.
+
 9- Run solution.
+
 10- Enjoy !!!
