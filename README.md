@@ -3,7 +3,7 @@ Speed-Clustering
 
 Born from the idea of creating an application which makes a classification of persons per profile whether on foot, by bicycle or by car.
 
-Speed-Clustering application provides users with their current location,speed and other informations and allows them a grouping oh their visited places.
+Speed-Clustering application provides users with their current location,speed and other informations and allows them a grouping of their visited places.
 
 
 Let it works
